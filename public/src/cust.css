@@ -1,0 +1,23 @@
+@keyframes gradientAnimation {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+}
+
+.animated-bg {
+    background: linear-gradient(270deg, #FF00FF, #ae1863, #ba1b63, #ff3f34);
+    background-size: 400% 400%;
+    animation: gradientAnimation 10s ease infinite;
+}
+
+@keyframes colorChange {
+    0% { color: #740074; }
+    25% { color: #611e7e; }
+    50% { color: #4B0082; }
+    75% { color: #551387; }
+    100% { color: #8a075a; }
+}
+
+.animate-color {
+    animation: colorChange 4s ease infinite;
+}
