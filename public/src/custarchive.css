@@ -5,7 +5,18 @@
 }
 
 .animated-bg {
-    background: linear-gradient(270deg, #340120, #2a0417, #2c0215, #340402);
+    background: linear-gradient(270deg, #9b035e, #8e0a4c, #b32062, #570560);
     background-size: 400% 400%;
-    animation: gradientAnimation 10s ease infinite;
+    animation: gradientAnimation 10s ease-in infinite;
+}
+
+@keyframes down-anim {
+    0% { top: 1%; }
+    50% { top: 5%; }
+    100% { top: 1%; }
+}
+
+.down-sign{
+
+ animation: down-anim 5s ease infinite;
 }
