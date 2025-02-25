@@ -641,6 +641,18 @@
   .h-96 {
     height: calc(var(--spacing) * 96);
   }
+  .h-\[5vh\] {
+    height: 5vh;
+  }
+  .h-\[50\%\] {
+    height: 50%;
+  }
+  .h-\[50vh\] {
+    height: 50vh;
+  }
+  .h-\[51vh\] {
+    height: 51vh;
+  }
   .h-\[80\%\] {
     height: 80%;
   }
