@@ -10,13 +10,3 @@
     animation: gradientAnimation 10s ease-in infinite;
 }
 
-@keyframes down-anim {
-    0% { top: 1%; }
-    50% { top: 5%; }
-    100% { top: 1%; }
-}
-
-.down-sign{
-
- animation: down-anim 5s ease infinite;
-}
