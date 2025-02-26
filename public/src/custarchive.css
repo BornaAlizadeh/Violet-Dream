@@ -3,10 +3,10 @@
     50% { background-position: 100% 50%; }
     100% { background-position: 0% 50%; }
 } */
-
+/* 
 .animated-bg {
     background: linear-gradient(270deg, #9b035e, #8e0a4c, #b32062, #570560);
     
-    /* animation: gradientAnimation 10s ease-in infinite; */
+    animation: gradientAnimation 10s ease-in infinite;
 }
-
+ */

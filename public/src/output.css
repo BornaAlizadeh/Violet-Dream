@@ -473,6 +473,9 @@
   .border-violet-600 {
     border-color: var(--color-violet-600);
   }
+  .bg-\[\#8e0a4c\] {
+    background-color: #8e0a4c;
+  }
   .bg-amber-200 {
     background-color: var(--color-amber-200);
   }
